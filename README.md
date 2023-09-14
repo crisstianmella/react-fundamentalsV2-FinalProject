@@ -1,8 +1,36 @@
-# React + Vite
+# Proyecto: Formula 1 - Info App
+# Proyecto final del curso React Fundamentals V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Para clonar el proyecto usando cli:
 
-Currently, two official plugins are available:
+### 1- Situarse en el directorio donde desee guardar el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2- Luego ejecutar:
+```
+git clone https://github.com/crisstianmella/react-fundamentalsV2-FinalProject
+```
+### 3- Entrar al directorio del proyecto: 
+```
+cd react-fundamentalsV2-FinalProject
+```
+### 4- Instalar dependencias usando:  
+```
+yarn install
+```
+### 5- Construir la aplicación usando el comando 
+```
+yarn run build
+```
+### 6- Puedes previsualizar el "Build" usando el comando
+```
+yarn run preview
+```
+
+# Info de la API utilizada para el desarrollo del proyecto
+
+### Link de la API
+```
+https://rapidapi.com/sportcontentapi/api/f1-live-motorsport-data
+```
+### Plan Free -> Request limit = 250 request/mes
+
