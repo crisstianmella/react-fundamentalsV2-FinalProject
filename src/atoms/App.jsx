@@ -125,6 +125,7 @@ function App() {
                         dataRC ? <RaceCalendar RacesCalendar={dataRC} /> : null
                     }
                 />
+                <Route path="*" element={<h1>Error: Page not found</h1>} />
             </Routes>
         </div>
     )
